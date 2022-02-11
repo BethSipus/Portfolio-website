@@ -153,23 +153,20 @@ button:focus,
 }
 @keyframes bird-move {
   from {
-    transform: translate(0, 50px);
-  }
-  to {
     transform: translate(200px, 50px);
-  }
+   }
+   to {
+     transform: translate(-200px, -50px);
+   }
+ }
+
+.bird-front {
+  animation: 25s bird-move  alternate linear;
 }
-.bird-one {
-  animation: 30s bird-move infinite alternate linear;
+.bird-back {
+  animation: 25s bird-move  alternate linear;
 }
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-  to {
-    transform: translate(100px, 48px);
-  }
-}
+
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
