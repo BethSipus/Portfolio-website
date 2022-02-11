@@ -36,17 +36,14 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: var(--primany-font-weight);
 }
 
 h2 {
   font-size: 24px;
-  font-weight: var(--primany-font-weight);
 }
 
 h3 {
   font-size: 18px;
-  font-weight: var(--primany-font-weight);
 }
 
 a {
