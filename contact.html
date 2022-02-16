@@ -6,7 +6,7 @@
   <title>Elizabeth Sipus- Portfolio</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
     <link
       rel="icon"
       type="image/png"
@@ -39,28 +39,30 @@
         </ul>
       </nav>
     </header>
+
     <div class="profile">
       <h1>Contact Elizabeth!</h1>
     </div>
-    <div class="profile">
-      Elizabeth Lavon Sipus<br />
-      19051 Holly Lane Apt #13 <br />
-      Huntington Beach<br />
-      California 92648<br />
-      <br />
-      Telephone: 1(714)206-8799<br />
-      <a href="bethsipus@yahoo.com">bethsipus@yahoo.com</a> <br />
-      <a href="bethsipus@yahoo.com">Contact me</a>
-    </div>
-    <form action="" method="post">
-  <label class="standard-label" for="contact-email">E-mail: </label>
-      <input type="email" id="contact-email" required />
-  <label class="standard-label" for="contact-telephone">Telephone: </label>
-  <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="telephone">
-  <label class="standard-label" for="contact-message">Message: </label>
-  <textarea maxlength="240" required></textarea>
-  <input type="submit" value="Send message" id="message">
-</form>
+
+    <main>
+      <div class="profile">
+         <a href="tel:+17142068799">Tel +17142068799</a><br>
+         <a href="mailto:bethsipus@yahoo.com">bethsipus@yahoo.com</a><br>
+         <a href="mailto:bethsipus@yahoo.com">Contact me</a>
+         <form action="#" method="post" id="contact-form">
+           <label class="standard-label" for="contact-email">Email: </label>
+           <input type="email" id="contact-email" required>
+
+           <label class="standard-label" for="contact-telephone">Telephone: </label>
+           <input type="tel" id="contact-telephone"> <br>
+
+           <label class="standard-label" for="contact-message">Message: </label>
+           <textarea required maxlength="240" id="contact-message"></textarea>
+           <input type="submit" value="Send message" id="contact-message">
+         </form>
+       </div>
+    </main>
+
 <footer class="page-footer">
       <p>Find me on</p>
       <div class="social-media">
